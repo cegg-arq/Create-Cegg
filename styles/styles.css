@@ -1,0 +1,51 @@
+.Titulo-de-bienvenida {
+    font-size: 40px;
+    color: #fabc79;
+    font-family: "Josefin Sans", sans-serif, normal;
+    padding: 0;
+    margin: 0;
+}
+
+.slogan {
+    font-family: "Josefin Sans", sans-serif, normal;
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+   
+}
+
+header {
+    background-color: #1d3f46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.Menunav {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.nav {
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif, weight;
+
+}
+
+.bienvenida {
+    background-color: #fabc79;
+
+}
+
+.Bienveidostext {
+    font-size: 100px;
+    color: #1d3f46;
+    font-family: "Josefin Sans", sans-serif, normal;
+    display: flex;
+    justify-content: center;
+}
