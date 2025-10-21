@@ -49,3 +49,269 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.Nosotros {
+    background-color: #1d3f46;
+}
+
+.SobreNos {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif, normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Parrafo1 {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Plus Jakarta Sans", sans-serif, weight;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Parrafo2 {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Plus Jakarta Sans", sans-serif, weight;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.CreamosColor {
+    color: #fabc79;
+    
+}
+
+.Servicios {
+  background-color: #e0a667;
+  padding: 50px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.TituloServices {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 40px;
+  color: whitesmoke;
+}
+
+/* Contenedor general en columnas */
+.contenedor-servicios {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px; /* espacio entre columnas */
+}
+
+/* Cada columna individual */
+.contenedor-servicios > div {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 50px;
+  color: #2b2b2b;
+}
+
+.contenedor-servicios h2 {
+  margin-bottom: 50px;
+}
+
+.contenedor-servicios p {
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.contenedor-servicios ul {
+  padding-left: 10px;
+}
+
+.contenedor-servicios li {
+  margin-bottom: 10px;
+}
+
+.SubSer1 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.SubSer2 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.SubSer3 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.Arquitectura {
+  font-size: 14px;
+}
+
+.Administracion {
+  font-size: 14px;
+}
+
+.Branding {
+  font-size: 14px;
+}
+
+.Proyectos {
+  background-color: #1d3f46;
+  padding: 60px 80px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.TituloProyectos {
+  text-align: center;
+  font-size: 100px;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.Proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Texto centrado y equilibrado */
+.Proyecto-texto {
+  text-align: center;
+  max-width: 1000px;
+}
+
+.Proyecto-texto h3 {
+  font-size: 50px;
+  color: whitesmoke;
+  margin-bottom: 70px;
+}
+
+.Proyecto-texto p {
+  font-size: 20px;
+  color: whitesmoke;
+  line-height: 1.6;
+}
+
+.Proyecto-imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap; 
+}
+
+.Proyecto-imagenes img {
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px whitesmoke (0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Proyecto-imagenes img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 6px 15px whitesmoke (0, 0, 0, 0.25);
+}
+
+footer {
+  background-color: #fabc79;
+  padding: 50px 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.footer-info h2 {
+  margin-bottom: 20px;
+  color: #1d3f46;
+}
+
+.footer-info p, 
+.footer-info a {
+  font-size: 18px;
+  line-height: 1;
+  color: #1d3f46;
+  text-decoration: none;
+}
+
+.footer-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1d3f46;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+  transition: border-color 0.5s ease;
+}
+
+.footer-form input:focus,
+.footer-form textarea:focus {
+  border-color: #1d3f46;
+}
+
+.footer-form button {
+  background-color: #1d3f46;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: background-color 0.3s ease;
+}
+
+.footer-form button:hover {
+  background-color: #358797;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 100px;
+  background-color: #1d3f46;
+}
+
+/* Contenedor del logo + texto */
+.logo-contenedor {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+/* Tamaño del logo */
+.logo {
+  width: 120px;
+  height: auto;
+}
